@@ -37,12 +37,12 @@ game.loadScreen = me.ScreenObject.extend({
 
         // font / text logo
         context.fillStyle="darkred";
-        context.font = '24px Sans-Serif';
+        context.font = '24px Comic-Sans';
         context.textBaseline = 'Top';
-        context.fillText('oblak', 25, 315);
-        context.font = 'Bold 32px Sans-Serif';
+        context.fillText('Butts-Co', 25, 315);
+        context.font = 'Bold 32px Comic-Sans';
         context.textBaseline = 'Top';
-        context.fillText('games', 85, 315);
+        context.fillText('Games', 85, 315);
 
         // progress bar
         var gradient=context.createLinearGradient(0, 0, 196, 0);
