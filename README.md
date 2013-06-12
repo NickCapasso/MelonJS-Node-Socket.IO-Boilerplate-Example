@@ -1,4 +1,4 @@
-Multiplayer melonJS with *node and socket.io*
+spider*soldiers*
 ===========
 
-A simple online multiplayer game powered by melonJS, node.js, and socket.io - feel free to use / build on / steal / etc
+An online multiplayer game powered by melonJS, node.js, and socket.io
