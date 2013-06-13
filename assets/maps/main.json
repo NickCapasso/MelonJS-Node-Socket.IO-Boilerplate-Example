@@ -2,7 +2,7 @@
  "layers":[
         {
          "height":40,
-         "image":"",
+         "image":"..\/img\/dm1bg.png",
          "name":"background",
          "opacity":1,
          "type":"imagelayer",
