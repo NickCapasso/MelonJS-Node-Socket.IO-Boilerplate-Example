@@ -6,7 +6,7 @@ var global = {
     DEBUG: true,
     network: {
         host: "nick.brainfood.com",
-        port: 80,
+        port:8080,
         totlatency: 0,
         latency: 0,
         emitTime: 0,
