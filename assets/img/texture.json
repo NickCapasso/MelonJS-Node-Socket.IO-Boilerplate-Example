@@ -1,36 +1,20 @@
 {"frames": [
 
 {
-	"filename": "spider-1.png",
-	"frame": {"x":2,"y":2,"w":50,"h":30},
+	"filename": "robosheet_1.png",
+	"frame": {"x":2,"y":2,"w":496,"h":1100},
 	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":30},
-	"sourceSize": {"w":50,"h":30}
-},
-{
-	"filename": "spider-2.png",
-	"frame": {"x":2,"y":34,"w":50,"h":30},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":30},
-	"sourceSize": {"w":50,"h":30}
-},
-{
-	"filename": "spider-3.png",
-	"frame": {"x":2,"y":66,"w":50,"h":30},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":30},
-	"sourceSize": {"w":50,"h":30}
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":496,"h":1100},
+	"sourceSize": {"w":530,"h":1104}
 }],
 "meta": {
-	"app": "http://www.texturepacker.com",
+	"app": "http://www.codeandweb.com/texturepacker ",
 	"version": "1.0",
 	"image": "texture.png",
 	"format": "RGBA8888",
-	"size": {"w":64,"h":128},
+	"size": {"w":512,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:e1105e200d0059fcbe22e447845f6c02$"
+	"smartupdate": "$TexturePacker:SmartUpdate:b5726da115567343ceccc170f58b5b4a$"
 }
 }
