@@ -1,20 +1,20 @@
 {"frames": [
 
 {
-	"filename": "robosheet_1.png",
-	"frame": {"x":2,"y":2,"w":496,"h":1100},
+	"filename": "texture.png",
+	"frame": {"x":2,"y":2,"w":88,"h":120},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":4,"w":496,"h":1100},
-	"sourceSize": {"w":530,"h":1104}
+	"spriteSourceSize": {"x":2,"y":2,"w":88,"h":120},
+	"sourceSize": {"w":128,"h":128}
 }],
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker ",
 	"version": "1.0",
 	"image": "texture.png",
 	"format": "RGBA8888",
-	"size": {"w":512,"h":2048},
+	"size": {"w":128,"h":128},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:b5726da115567343ceccc170f58b5b4a$"
+	"smartupdate": "$TexturePacker:SmartUpdate:7bf3737d14acdb5dfe53b18e27035bbc$"
 }
 }
