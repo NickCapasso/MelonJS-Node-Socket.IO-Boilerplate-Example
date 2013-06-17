@@ -1,12 +1,20 @@
 {"frames": [
 
 {
-	"filename": "texture.png",
-	"frame": {"x":2,"y":2,"w":88,"h":120},
+	"filename": "roboidle.png",
+	"frame": {"x":2,"y":86,"w":35,"h":82},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":5,"w":35,"h":82},
+	"sourceSize": {"w":53,"h":94}
+},
+{
+	"filename": "robowalk1.png",
+	"frame": {"x":2,"y":2,"w":51,"h":82},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":2,"y":2,"w":88,"h":120},
-	"sourceSize": {"w":128,"h":128}
+	"spriteSourceSize": {"x":0,"y":14,"w":51,"h":82},
+	"sourceSize": {"w":53,"h":102}
 }],
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker ",
@@ -15,6 +23,6 @@
 	"format": "RGBA8888",
 	"size": {"w":128,"h":128},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:7bf3737d14acdb5dfe53b18e27035bbc$"
+	"smartupdate": "$TexturePacker:SmartUpdate:9f4b1963bbcfa2f7df3ad9f4be6b03fa$"
 }
 }

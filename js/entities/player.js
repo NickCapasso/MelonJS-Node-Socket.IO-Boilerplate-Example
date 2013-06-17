@@ -28,19 +28,18 @@ game.Player = game.Entity.extend({
 
         names.push("roboidle.png");
         names.push("robowalk1.png");
-        names.push("texture.png");
 
         this.renderable = game.texture.createAnimationFromName(names);
         this.renderable.animationspeed = ~~(me.sys.fps / 30);
 
         this.renderable.addAnimation("stand-left", [0]);
         this.renderable.addAnimation("left", [
-            0, 1, 2
+            0, 1
         ]);
 
         this.renderable.addAnimation("stand-right", [0]);
         this.renderable.addAnimation("right", [
-            0, 1, 2
+            0, 1
         ]);
 
         this.renderable.setCurrentAnimation("stand-right");
