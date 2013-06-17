@@ -26,23 +26,42 @@ game.Player = game.Entity.extend({
         }
         */
 
-        names.push("roboidle.png");
-        names.push("robowalk1.png");
+        names.push("roboidle1.png");
+        names.push("roboidle2.png");
+	names.push("roboidle3.png");
+	names.push("robowalk1.png");
+	names.push("robowalk2.png");
+	names.push("robowalk3.png");
+	names.push("robowalk4.png");
+	names.push("robowalk5.png");
+	names.push("robowalk6.png");
+	names.push("robowalk7.png");
+	names.push("robostop1.png");
+	names.push("robostop2.png");
+	names.push("robojump1.png");
+	names.push("robojump2.png");
+	names.push("robojump3.png");
+	names.push("robojump4.png");
+	names.push("robojump5.png");
+	names.push("robojump6.png");
+	names.push("robojump7.png");
+	names.push("robojump8.png");
+	names.push("robojump9.png");
 
         this.renderable = game.texture.createAnimationFromName(names);
-        this.renderable.animationspeed = ~~(me.sys.fps / 30);
+        this.renderable.animationspeed = ~~(me.sys.fps / 10);
 
-        this.renderable.addAnimation("stand-left", [0]);
+        this.renderable.addAnimation("stand-left", [0,1,2]);
         this.renderable.addAnimation("left", [
-            0, 1
+            3,4,5,6,7,8,9
         ]);
 
-        this.renderable.addAnimation("stand-right", [0]);
+        this.renderable.addAnimation("stand-right", [0,1,2]);
         this.renderable.addAnimation("right", [
-            0, 1
+            3,4,5,6,7,8,9
         ]);
-
-        this.renderable.setCurrentAnimation("stand-right");
+	
+	this.renderable.setCurrentAnimation("stand-right");
     },
 
     update : function () {
