@@ -22,13 +22,13 @@ game.Player = game.Entity.extend({
             for (var i = 1; i <= 7; i++) {
                 names.push("player-" + dirs[j] + "-" + i + ".png");
             }
-            names.push("player-stand-"+dirs[j]+".png")
+           names.push("player-stand-"+dirs[j]+".png")
         }
         */
 
-        names.push("spider-1.png");
-        names.push("spider-2.png");
-        names.push("spider-3.png");
+        names.push("roboidle.png");
+        names.push("robowalk1.png");
+        names.push("texture.png");
 
         this.renderable = game.texture.createAnimationFromName(names);
         this.renderable.animationspeed = ~~(me.sys.fps / 30);
