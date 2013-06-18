@@ -43,8 +43,8 @@ game.playScreen = me.ScreenObject.extend({
 
         // Create our player and set them to be the local player (so we know who "we" are)
         global.state.localPlayer = new game.Player(40, 190, {
-            spritewidth: 50,
-            spriteheight: 30,
+            spritewidth: 40,
+            spriteheight: 70,
             name: "player"
         });
 
