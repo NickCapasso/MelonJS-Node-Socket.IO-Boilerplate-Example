@@ -2,63 +2,87 @@
 
 {
 	"filename": "roboidle1.png",
-	"frame": {"x":168,"y":183,"w":36,"h":80},
-	"rotated": true,
+	"frame": {"x":199,"y":84,"w":36,"h":80},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":6,"w":36,"h":80},
 	"sourceSize": {"w":48,"h":96}
 },
 {
 	"filename": "roboidle2.png",
-	"frame": {"x":2,"y":226,"w":35,"h":80},
-	"rotated": true,
+	"frame": {"x":189,"y":333,"w":35,"h":80},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":3,"y":6,"w":35,"h":80},
 	"sourceSize": {"w":45,"h":96}
 },
 {
 	"filename": "roboidle3.png",
-	"frame": {"x":2,"y":150,"w":36,"h":82},
-	"rotated": true,
+	"frame": {"x":91,"y":86,"w":36,"h":82},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":11,"y":4,"w":36,"h":82},
 	"sourceSize": {"w":52,"h":96}
 },
 {
+	"filename": "roboidleleft1.png",
+	"frame": {"x":159,"y":168,"w":35,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":3,"w":35,"h":81},
+	"sourceSize": {"w":55,"h":97}
+},
+{
+	"filename": "roboidleleft2.png",
+	"frame": {"x":129,"y":85,"w":35,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":3,"w":35,"h":81},
+	"sourceSize": {"w":43,"h":97}
+},
+{
+	"filename": "roboidleleft3.png",
+	"frame": {"x":237,"y":84,"w":35,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":5,"w":35,"h":79},
+	"sourceSize": {"w":45,"h":97}
+},
+{
 	"filename": "robojump1.png",
-	"frame": {"x":2,"y":150,"w":36,"h":82},
-	"rotated": true,
+	"frame": {"x":91,"y":86,"w":36,"h":82},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":6,"y":4,"w":36,"h":82},
 	"sourceSize": {"w":52,"h":90}
 },
 {
 	"filename": "robojump2.png",
-	"frame": {"x":2,"y":188,"w":36,"h":80},
-	"rotated": true,
+	"frame": {"x":196,"y":168,"w":36,"h":80},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":6,"w":36,"h":80},
 	"sourceSize": {"w":48,"h":90}
 },
 {
 	"filename": "robojump3.png",
-	"frame": {"x":92,"y":90,"w":36,"h":84},
-	"rotated": true,
+	"frame": {"x":46,"y":378,"w":36,"h":84},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":3,"y":1,"w":36,"h":84},
 	"sourceSize": {"w":44,"h":90}
 },
 {
 	"filename": "robojump4.png",
-	"frame": {"x":166,"y":221,"w":37,"h":78},
-	"rotated": true,
+	"frame": {"x":271,"y":165,"w":37,"h":78},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":8,"w":37,"h":78},
 	"sourceSize": {"w":45,"h":90}
 },
 {
 	"filename": "robojump5.png",
-	"frame": {"x":2,"y":263,"w":42,"h":74},
+	"frame": {"x":2,"y":468,"w":42,"h":74},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":12,"w":42,"h":74},
@@ -66,39 +90,111 @@
 },
 {
 	"filename": "robojump6.png",
-	"frame": {"x":2,"y":54,"w":42,"h":88},
-	"rotated": true,
+	"frame": {"x":2,"y":378,"w":42,"h":88},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":0,"w":42,"h":88},
 	"sourceSize": {"w":48,"h":90}
 },
 {
 	"filename": "robojump7.png",
-	"frame": {"x":98,"y":41,"w":47,"h":88},
-	"rotated": true,
+	"frame": {"x":2,"y":288,"w":47,"h":88},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":88},
 	"sourceSize": {"w":53,"h":90}
 },
 {
 	"filename": "robojump8.png",
-	"frame": {"x":188,"y":86,"w":42,"h":66},
-	"rotated": true,
+	"frame": {"x":283,"y":443,"w":42,"h":66},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":4,"y":22,"w":42,"h":66},
 	"sourceSize": {"w":46,"h":90}
 },
 {
 	"filename": "robojump9.png",
-	"frame": {"x":162,"y":260,"w":36,"h":72},
+	"frame": {"x":226,"y":405,"w":36,"h":72},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":5,"y":18,"w":36,"h":72},
 	"sourceSize": {"w":48,"h":90}
 },
 {
+	"filename": "robojumpleft1.png",
+	"frame": {"x":54,"y":2,"w":35,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":35,"h":90},
+	"sourceSize": {"w":53,"h":94}
+},
+{
+	"filename": "robojumpleft2.png",
+	"frame": {"x":182,"y":251,"w":36,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":10,"w":36,"h":80},
+	"sourceSize": {"w":50,"h":94}
+},
+{
+	"filename": "robojumpleft3.png",
+	"frame": {"x":51,"y":288,"w":35,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":35,"h":84},
+	"sourceSize": {"w":43,"h":94}
+},
+{
+	"filename": "robojumpleft4.png",
+	"frame": {"x":247,"y":2,"w":38,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":12,"w":38,"h":78},
+	"sourceSize": {"w":44,"h":94}
+},
+{
+	"filename": "robojumpleft5.png",
+	"frame": {"x":287,"y":2,"w":41,"h":74},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":16,"w":41,"h":74},
+	"sourceSize": {"w":49,"h":94}
+},
+{
+	"filename": "robojumpleft6.png",
+	"frame": {"x":41,"y":98,"w":48,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":92},
+	"sourceSize": {"w":50,"h":94}
+},
+{
+	"filename": "robojumpleft7.png",
+	"frame": {"x":2,"y":194,"w":51,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":92},
+	"sourceSize": {"w":51,"h":94}
+},
+{
+	"filename": "robojumpleft8.png",
+	"frame": {"x":238,"y":443,"w":43,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":26,"w":43,"h":66},
+	"sourceSize": {"w":47,"h":94}
+},
+{
+	"filename": "robojumpleft9.png",
+	"frame": {"x":226,"y":331,"w":36,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":22,"w":36,"h":72},
+	"sourceSize": {"w":46,"h":94}
+},
+{
 	"filename": "robostop1.png",
-	"frame": {"x":84,"y":245,"w":43,"h":76},
+	"frame": {"x":78,"y":464,"w":43,"h":76},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":10,"w":43,"h":76},
@@ -106,24 +202,40 @@
 },
 {
 	"filename": "robostop2.png",
-	"frame": {"x":170,"y":130,"w":51,"h":80},
+	"frame": {"x":156,"y":445,"w":51,"h":80},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":3,"y":7,"w":51,"h":80},
 	"sourceSize": {"w":61,"h":96}
 },
 {
+	"filename": "robostopleft1.png",
+	"frame": {"x":220,"y":250,"w":50,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":6,"w":50,"h":79},
+	"sourceSize": {"w":62,"h":97}
+},
+{
+	"filename": "robostopleft2.png",
+	"frame": {"x":274,"y":82,"w":43,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":9,"w":43,"h":75},
+	"sourceSize": {"w":53,"h":97}
+},
+{
 	"filename": "robowalk1.png",
-	"frame": {"x":98,"y":2,"w":37,"h":94},
-	"rotated": true,
+	"frame": {"x":2,"y":98,"w":37,"h":94},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":8,"w":37,"h":94},
 	"sourceSize": {"w":47,"h":102}
 },
 {
 	"filename": "robowalk2.png",
-	"frame": {"x":86,"y":166,"w":40,"h":80},
-	"rotated": true,
+	"frame": {"x":168,"y":2,"w":40,"h":80},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":8,"w":40,"h":80},
 	"sourceSize": {"w":48,"h":102}
@@ -131,50 +243,106 @@
 {
 	"filename": "robowalk3.png",
 	"frame": {"x":2,"y":2,"w":50,"h":94},
-	"rotated": true,
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":1,"y":8,"w":50,"h":94},
 	"sourceSize": {"w":56,"h":102}
 },
 {
 	"filename": "robowalk4.png",
-	"frame": {"x":2,"y":98,"w":50,"h":82},
-	"rotated": true,
+	"frame": {"x":137,"y":361,"w":50,"h":82},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":7,"w":50,"h":82},
 	"sourceSize": {"w":52,"h":102}
 },
 {
 	"filename": "robowalk5.png",
-	"frame": {"x":84,"y":208,"w":35,"h":80},
-	"rotated": true,
+	"frame": {"x":210,"y":2,"w":35,"h":80},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":9,"y":7,"w":35,"h":80},
 	"sourceSize": {"w":45,"h":102}
 },
 {
 	"filename": "robowalk6.png",
-	"frame": {"x":86,"y":128,"w":36,"h":82},
-	"rotated": true,
+	"frame": {"x":91,"y":2,"w":36,"h":82},
+	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":8,"y":7,"w":36,"h":82},
 	"sourceSize": {"w":48,"h":102}
 },
 {
 	"filename": "robowalk7.png",
-	"frame": {"x":194,"y":2,"w":51,"h":82},
+	"frame": {"x":88,"y":277,"w":51,"h":82},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":2,"y":8,"w":51,"h":82},
 	"sourceSize": {"w":61,"h":102}
+},
+{
+	"filename": "robowalkleft1.png",
+	"frame": {"x":107,"y":170,"w":50,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":5,"w":50,"h":81},
+	"sourceSize": {"w":56,"h":91}
+},
+{
+	"filename": "robowalkleft2.png",
+	"frame": {"x":234,"y":166,"w":35,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":5,"w":35,"h":79},
+	"sourceSize": {"w":49,"h":91}
+},
+{
+	"filename": "robowalkleft3.png",
+	"frame": {"x":129,"y":2,"w":37,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":5,"w":37,"h":81},
+	"sourceSize": {"w":41,"h":91}
+},
+{
+	"filename": "robowalkleft4.png",
+	"frame": {"x":84,"y":374,"w":51,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":51,"h":83},
+	"sourceSize": {"w":59,"h":91}
+},
+{
+	"filename": "robowalkleft5.png",
+	"frame": {"x":166,"y":85,"w":31,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":5,"w":31,"h":81},
+	"sourceSize": {"w":47,"h":91}
+},
+{
+	"filename": "robowalkleft6.png",
+	"frame": {"x":141,"y":253,"w":39,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":39,"h":81},
+	"sourceSize": {"w":49,"h":91}
+},
+{
+	"filename": "robowalkleft7.png",
+	"frame": {"x":55,"y":192,"w":50,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":50,"h":83},
+	"sourceSize": {"w":58,"h":91}
 }],
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker ",
 	"version": "1.0",
-	"image": "texture.png",
+	"image": "texture",
 	"format": "RGBA8888",
-	"size": {"w":256,"h":512},
+	"size": {"w":512,"h":512},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:62b8a085cc02034902344f7b4c774074$"
+	"smartupdate": "$TexturePacker:SmartUpdate:9a03f72b7934ef0ab4e239f8bedaf6bf$"
 }
 }
