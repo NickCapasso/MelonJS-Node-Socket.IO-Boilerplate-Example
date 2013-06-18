@@ -7,7 +7,7 @@ game.Player = game.Entity.extend({
         this.id;
         this.moving = false;
         this.direction = 'right';
-        this.font = new me.Font("Verdana", 10, "#000", "center");
+        this.font = new me.Font("Helvetica", 10, "#000", "center");
 
         if(this.name === "player") {
             global.state.localPlayer = this;
@@ -26,6 +26,7 @@ game.Player = game.Entity.extend({
         }
         */
 
+	//array is 29 units long
         names.push("roboidle1.png");
         names.push("roboidle2.png");
 	names.push("roboidle3.png");
@@ -47,19 +48,25 @@ game.Player = game.Entity.extend({
 	names.push("robojump7.png");
 	names.push("robojump8.png");
 	names.push("robojump9.png");
-
+	names.push("roboidleleft1.png");
+	names.push("roboidleleft2.png");
+	names.push("roboidleleft3.png");
+	names.push("robowalkleft1.png");
+	names.push("robowalkleft2.png");
+	names.push("robowalkleft3.png");
+	names.push("robowalkleft4.png");
+	names.push("robowalkleft5.png");
+	names.push("robowalkleft6.png");
+	names.push("robowalkleft7.png");	
+ 
         this.renderable = game.texture.createAnimationFromName(names);
         this.renderable.animationspeed = ~~(me.sys.fps / 10);
 
-        this.renderable.addAnimation("stand-left", [0,1,2]);
-        this.renderable.addAnimation("left", [
-            3,4,5,6,7,8,9
-        ]);
+        this.renderable.addAnimation("stand-left", [19,20,21]);
+        this.renderable.addAnimation("left", ([22,23,24,25,26,27,28]);
 
         this.renderable.addAnimation("stand-right", [0,1,2]);
-        this.renderable.addAnimation("right", [
-            3,4,5,6,7,8,9
-        ]);
+        this.renderable.addAnimation("right",[3,4,5,6,7,8,9]);
 	
 	this.renderable.setCurrentAnimation("stand-right");
     },
