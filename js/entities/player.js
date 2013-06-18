@@ -60,7 +60,7 @@ game.Player = game.Entity.extend({
 	names.push("robowalkleft7.png");	
  
         this.renderable = game.texture.createAnimationFromName(names);
-        this.renderable.animationspeed = ~~(me.sys.fps / 10);
+        this.renderable.animationspeed = ~~(me.sys.fps / 30);
 
         this.renderable.addAnimation("stand-left", [21,22,23]);
         this.renderable.addAnimation("left", [24,25,26,27,28,29,30]);
