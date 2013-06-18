@@ -3,7 +3,7 @@ var global = {
     WIDTH: 1136,
     HEIGHT: 640,
     DOUBLE: true,
-    DEBUG: true,
+    DEBUG: false,
     network: {
         host: "nick.brainfood.com",
         port:8080,
