@@ -26,7 +26,7 @@ game.Player = game.Entity.extend({
         }
         */
 
-	//array is 29 units long
+	//array is 31  units long
         names.push("roboidle1.png");
         names.push("roboidle2.png");
 	names.push("roboidle3.png");
@@ -63,7 +63,7 @@ game.Player = game.Entity.extend({
         this.renderable.animationspeed = ~~(me.sys.fps / 10);
 
         this.renderable.addAnimation("stand-left", [21,22,23]);
-        this.renderable.addAnimation("left", [22,23,24,25,26,27,28]);
+        this.renderable.addAnimation("left", [24,25,26,27,28,29,30]);
 
         this.renderable.addAnimation("stand-right", [0,1,2]);
         this.renderable.addAnimation("right",[3,4,5,6,7,8,9]);
