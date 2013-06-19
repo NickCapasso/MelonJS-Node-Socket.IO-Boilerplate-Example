@@ -62,10 +62,10 @@ game.Player = game.Entity.extend({
         this.renderable = game.texture.createAnimationFromName(names);
         this.renderable.animationspeed = ~~(me.sys.fps / 30);
 
-        this.renderable.addAnimation("stand-left", [21,22,23]);
+        this.renderable.addAnimation("stand-"left, [21,22,23]);
         this.renderable.addAnimation("left", [24,25,26,27,28,29,30]);
 
-        this.renderable.addAnimation("stand-right", [0,1,2]);
+        this.renderable.addAnimation("stand-"right, [0,1,2]);
         this.renderable.addAnimation("right",[3,4,5,6,7,8,9]);
 
 	this.renderable.addAnimation("jump", [12,13,14,15,16,17,18,19,20]);
