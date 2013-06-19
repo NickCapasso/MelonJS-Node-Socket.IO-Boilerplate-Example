@@ -19,6 +19,7 @@ game.Entity = me.ObjectEntity.extend({
 				break;
 			//this.moving = true;
 		   	//this.vel.y += this.accel.y * me.timer.tick;
+			}
             } else {
 		    switch (this.direction) {
 			case "left":
