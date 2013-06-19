@@ -22,6 +22,13 @@ game.Entity = me.ObjectEntity.extend({
                     this.moving = false;
                     this.vel.x += this.accel.x * me.timer.tick;
                     break;
+		
+		case "jump":
+		  if (!this.renderable.isCurrentAnimation("jump"))
+		        this.renderable.setCurrentAnimation("jump"));
+		    this.moving = false;
+		    this.vel.y += this.accel.y * me.timer.tick;
+		    break;
             }
 
         }
