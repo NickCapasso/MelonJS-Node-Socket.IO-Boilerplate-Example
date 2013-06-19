@@ -26,7 +26,7 @@ game.Player = game.Entity.extend({
         }
         */
 
-	//array is 31  units long
+	//array is 40  units long
         names.push("roboidle1.png");
         names.push("roboidle2.png");
 	names.push("roboidle3.png");
@@ -58,6 +58,15 @@ game.Player = game.Entity.extend({
 	names.push("robowalkleft5.png");
 	names.push("robowalkleft6.png");
 	names.push("robowalkleft7.png");	
+	names.push("robojumpleft1.png");
+	names.push("robojumpleft2.png");
+	names.push("robojumpleft3.png");
+	names.push("robojumpleft4.png");
+	names.push("robojumpleft5.png");
+	names.push("robojumpleft6.png");
+	names.push("robojumpleft7.png");
+	names.push("robojumpleft8.png");
+	names.push("robojumpleft9.png");
  
         this.renderable = game.texture.createAnimationFromName(names);
         this.renderable.animationspeed = ~~(me.sys.fps / 30);
@@ -68,8 +77,9 @@ game.Player = game.Entity.extend({
         this.renderable.addAnimation("stand-right", [0,1,2]);
         this.renderable.addAnimation("right",[3,4,5,6,7,8,9]);
 
-	this.renderable.addAnimation("jump", [12,13,14,15,16,17,18,19,20]);
- 	
+	this.renderable.addAnimation("jumpright", [12,13,14,15,16,17,18,19,20]);
+ 	this.renderable.addAnimation("jumpleft", [31,32,33,34,35,36,37,38,39]);
+
 	this.renderable.setCurrentAnimation("stand-right");
     },
 

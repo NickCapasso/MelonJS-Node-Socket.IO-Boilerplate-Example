@@ -10,10 +10,15 @@ game.Entity = me.ObjectEntity.extend({
 
     update : function () {
 	    if (this.jumping || this.falling) {
-		  if (!this.renderable.isCurrentAnimation("jump"))
-		        this.renderable.setCurrentAnimation("jump");
-		    //this.moving = true;
-		    //this.vel.y += this.accel.y * me.timer.tick;
+		    switch (this.direction){
+			case "left":
+				doAnim(this.renderable, 'jumpleft');
+				break;
+			case "right":
+				doAnim(this.renderable, 'jumpright');
+				break;
+			//this.moving = true;
+		   	//this.vel.y += this.accel.y * me.timer.tick;
             } else {
 		    switch (this.direction) {
 			case "left":
