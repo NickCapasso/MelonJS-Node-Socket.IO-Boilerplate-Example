@@ -1,28 +1,20 @@
 {"frames": [
 
 {
-	"filename": "snow.png",
-	"frame": {"x":2,"y":2,"w":512,"h":256},
+	"filename": "Flagroulettetextures.png",
+	"frame": {"x":2,"y":2,"w":1026,"h":640},
 	"rotated": true,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":512,"h":256},
-	"sourceSize": {"w":512,"h":256}
-},
-{
-	"filename": "tileset.png",
-	"frame": {"x":260,"y":2,"w":33,"h":33},
-	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":33},
-	"sourceSize": {"w":615,"h":615}
+	"spriteSourceSize": {"x":2,"y":382,"w":1026,"h":640},
+	"sourceSize": {"w":2048,"h":1024}
 }],
 "meta": {
-	"app": "http://www.codeandweb.com/texturepacker ",
+	"app": "http://www.texturepacker.com",
 	"version": "1.0",
-	"image": "tileset",
+	"image": "tileset.png",
 	"format": "RGBA8888",
-	"size": {"w":512,"h":1024},
+	"size": {"w":1024,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:0deb014e76c6a2eba9c293cafd8dcb1a$"
+	"smartupdate": "$TexturePacker:SmartUpdate:8647b66ef80af97f59449c56e69d3cd2$"
 }
 }
